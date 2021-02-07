@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branding Agency Theme</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
+
+    <!-- Flaticon -->
+    <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+     -->
+     <link rel="stylesheet" href="assets/fonts and icons/flaticon/font/flaticon.css">
+
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- Boostrap icons -->
+     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="fixed-top">
+        <!-- Navigation menu -->
+        <nav class="navbar navbar-expand-lg py-lg-0 position-relative">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo/Logo-light.svg" class="w-100 logo-light"alt="">
+                <img src="img/logo/Logo-dark.svg" class ="w-100 logo-dark"alt="">
+            </a>
+            <!-- Mobile toggle button -->
+            <div class="navbar-toggler" type ="button" data-toggle ="collapse" data-target = "#navigation-menu">
+                <div class="toggle-icon one"></div>
+                <div class="toggle-icon two"></div>
+                <div class="toggle-icon three"></div>
+            </div>
+
+            <div class ="navbar-collapse collapse" id="navigation-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item services position-relative">
+                        <a href="#" class="nav-link d-flex">Services <i class="flaticon-caret-down"></i> </a>
+                        <!-- services dropdown menu -->
+                        <ul class="submenu position-absolute list-unstyled px-3 pb-0">
+                            <li><a href="#">Logo and branding</a></li>
+                            <li><a href="#">Website design</a></li>
+                            <li><a href="#">Sales presentation</a></li>
+                            <li><a href="#">Public relations</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+        <!-- End of Navigation menu -->
+    </header>
+
+    <!-- end of header -->
+
+    <!-- Hero -->
+    <section class="hero position-relative d-flex align-items-center px-5">
+        <div class="video-container">
+            <video autoplay loop muted src="video/Man Working in the Office.mp4" type="video/mp4" class="bg-video"></video>
+        </div>
+        <div class="cta">
+            <h1 class="display-3 text-light">Let's help you <br /> <span id="typed" class="font-weight-bold text-white font-italic"></span> </h1>
+            <div id="typed-strings">
+                <p >Grow your brand..</p>
+                <p>Win more leads..</p>
+            </div>
+    </section>
+    <!-- End of Hero -->
+
+    <!-- About section -->
+    <section class="about mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-lg-4 pl-0">
+                    <div class="h1 text-muted heading-text text-center position-relative" background-text ="A" data-aos="fade-up">
+                        About Us 
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-8 about-icon my-5 mt-lg-0 d-table">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                            <i class="bi bi-cloud d-table"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-lightning d-table"></i>
+                           <p> Lorem ipsum dolor sit amet sherf opqifs aswret.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="450">
+                            <i class="bi bi-vinyl-fill d-table"></i>
+                            <p>Lorem ipsum dolor sit amet nmsbd qwarrd oejmw.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container-fluid px-0 space">
+            <div class="about-video py-5">
+                <p class="text-center text-muted h1">Where we are coming from</p>
+                <p class="text-center text-muted mb-5 h4">History, timeline, founders</p>
+                <span class="play-btn d-table mx-auto mt-4">
+                    <a data-fancybox href ="https://youtu.be/ScMzIvxBSi4">
+                        <i class="bi bi-play-fill d-flex"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- End of about section -->
+
+    <!-- Services section -->
+    <section class="services">
+        <div class="container">
+           
+            <div data-aos="fade-up" class="h1 text-muted heading-text text-center position-relative d-table ml-auto small-space" background-text ="S">
+                Services 
+            </div>
+
+            
+            <div class="row services-box py-5">
+                <div class="col-md-6 col-lg-4 first-box mb-5" data-aos="fade-up">
+                    <div class="col-12 py-5">
+                        <i class="bi bi-lightning d-table mx-auto mb-4"></i>
+                        <h3 class="text-center">
+                            Web design
+                        </h3>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum quidem autem nobis deserunt voluptate tempora.
+                        </p>
+
+                        <span class="learn-more d-flex justify-content-center mt-4 align-items-center">
+                                <i class="arrow-shaft first"></i>
+                                <i class="arrow-shaft"></i>
+                                <span class="learn-more_text">Learn more</span>
+                        </span>
+                        
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-12 py-5">
+                        <i class="bi bi-cart-fill d-table mx-auto mb-4"></i>
+                        <h3 class="text-center">
+                            eCommerce
+                        </h3>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum quidem autem nobis deserunt voluptate tempora.
+                        </p>
+                        <span class="learn-more d-flex justify-content-center mt-4 align-items-center">
+                            <i class="arrow-shaft first"></i>
+                            <i class="arrow-shaft"></i>
+                            <span class="learn-more_text">Learn more</span>
+                    </span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-12 py-5">
+                        <i class="bi bi-bar-chart-fill d-table mx-auto mb-4"></i>
+                        <h3 class="text-center">
+                            Analytics
+                        </h3>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum quidem autem nobis deserunt voluptate tempora.
+                        </p>
+                        <span class="learn-more d-flex justify-content-center mt-4 align-items-center">
+                            <i class="arrow-shaft first"></i>
+                            <i class="arrow-shaft"></i>
+                            <span class="learn-more_text">Learn more</span>
+                    </span>
+                    </div>
+                </div>
+           
+
+            <!-- <div class="row services-box second"> -->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade-up">
+                    <div class="col-12 py-5">
+                        <i class="bi bi-badge-ad-fill d-table mx-auto mb-4"></i>
+                        <h3 class="text-center">
+                            Ad buying
+                        </h3>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum quidem autem nobis deserunt voluptate tempora.
+                        </p>
+                        <span class="learn-more d-flex justify-content-center mt-4 align-items-center">
+                            <i class="arrow-shaft first"></i>
+                            <i class="arrow-shaft"></i>
+                            <span class="learn-more_text">Learn more</span>
+                        </span>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="col-12 py-5">
+                        <i class="bi bi-camera-video-fill d-table mx-auto mb-4"></i>
+                        <h3 class="text-center">
+                            Video production
+                        </h3>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum quidem autem nobis deserunt voluptate tempora.
+                        </p>
+                        <span class="learn-more d-flex justify-content-center mt-4 align-items-center">
+                                <i class="arrow-shaft first"></i>
+                                <i class="arrow-shaft"></i>
+                                <span class="learn-more_text">Learn more</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 last-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-12 py-5">
+                        <i class="bi bi-facebook d-table mx-auto mb-4"></i>
+                        <h3 class="text-center">
+                            Social media
+                        </h3>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum quidem autem nobis deserunt voluptate tempora.
+                        </p>
+                        <span class="learn-more d-flex justify-content-center mt-4 align-items-center">
+                                <i class="arrow-shaft first"></i>
+                                <i class="arrow-shaft"></i>
+                                <span class="learn-more_text">Learn more</span>
+                        </span>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+        </div>
+    </section>
+    <!-- End of services -->
+
+    <!-- Our work/portfolio -->
+    <section class="portfolio space">
+        <div class="container">
+            <div class="h1 text-muted heading-text text-center position-relative d-table mx-auto small-space" background-text ="O" data-aos="fade-up">
+                Our work 
+            </div>
+            <ul class="d-flex list-unstyled filter" data-aos="fade-up">
+                <li filter ="all"><i></i>All</li>
+                <li filter ="video"><i></i>Video</li>
+                <li filter ="branding"><i></i>Branding</li>
+                <li filter="ecommerce"><i></i>eCommerce</li>
+                <li filter ="website"><i></i>Website</li>
+            </ul>
+            <div class="portfolio-container">
+
+                <div class="modal-box branding" data-aos="fade-up"> 
+                    
+                    <span class="overlay-image">
+                         <img src="img/images/testing pix.jpg" alt="portfolio item" class="w-100">  
+                    </span>
+                    <div class="portfolio-message d-none">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sunt similique neque perferendis unde odit vitae est eveniet! Ipsam non deleniti cumque repellendus saepe officiis repudiandae similique vero libero sint.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quas doloremque velit, repellat corporis nulla sed voluptate ullam, laborum quia, quaerat alias error? Vel minima iste, quo iure quaerat ullam reprehenderit doloremque, voluptatibus molestiae dolor architecto adipisci ipsam earum quod tenetur delectus. Deserunt, possimus officia.
+                    </div>
+                    <p class="portfolio-text text-white p-3"> Branding</p>
+
+                    <div class="portfolio-category">
+                        <h3>Moheeda</h3>
+                        <span class="badge">Branding</span>
+                    </div>
+
+                     <div class="portfolio-overlay"></div> 
+                
+                </div>
+
+                <div class="modal-box website" data-aos="fade-up" data-aos-delay="150">
+                    <span class="overlay-image">
+                        <img src="img/images/web design.jpg" alt="portfolio item" class="w-100">  
+                   </span>
+                   <div class="portfolio-message d-none">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sunt similique neque perferendis unde odit vitae est eveniet! Ipsam non deleniti cumque repellendus saepe officiis repudiandae similique vero libero sint.
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quas doloremque velit, repellat corporis nulla sed voluptate ullam, laborum quia, quaerat alias error? Vel minima iste, quo iure quaerat ullam reprehenderit doloremque, voluptatibus molestiae dolor architecto adipisci ipsam earum quod tenetur delectus. Deserunt, possimus officia.
+                   </div>
+                   <p class="portfolio-text text-white p-3"> Web design</p>
+
+                   <div class="portfolio-category">
+                       <h3>Carlmax</h3>
+                       <span class="badge">Web design</span>
+                   </div>
+
+                    <div class="portfolio-overlay"></div> 
+                </div>
+
+                <div class="modal-box ecommerce" data-aos="fade-up" data-aos-delay="300">
+                    <span class="overlay-image">
+                        <img src="img/images/ecommerce.jpg" alt="portfolio item" class="w-100">
+                    </span>
+                    <div class="portfolio-message d-none">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At dolor illo modi, alias nisi veniam laboriosam aliquam dignissimos quidem sint? Fugit numquam quasi molestiae accusantium, minima odio obcaecati soluta animi accusamus id laudantium ipsa nostrum reprehenderit dolor quia. Beatae commodi odit natus, iusto libero, repellat error facere, corrupti minima tempore vel ipsam nulla quae nisi?
+                    </div>
+                    <p class="portfolio-text text-white p-3">Ecommerce</p>
+
+                    <div class="portfolio-category">
+                        <h3>Curgi</h3>
+                        <span class="badge">eCommerce</span>
+
+                        <div class="portfolio-overlay"></div>
+                    </div>
+                </div>
+
+                <div class="modal-box video">
+                    <span class="overlay-image">
+                        <img src="img/images/video.jpg" alt="portfolio item" class="w-100">
+                    </span>
+
+                    <div class="portfolio-message d-none">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste repellendus et asperiores magni officia unde excepturi nobis repellat! Explicabo, at natus inventore, quos repellendus rerum illum ut voluptate esse, laboriosam voluptatem ratione impedit et dignissimos aliquam. Veniam laborum nam earum impedit repudiandae?
+                    </div>
+
+                    <p class="portfolio-text text-white p-3">Video</p>
+
+                    <div class="portfolio-category">
+                        <h3>TVC</h3>
+                        <span class="badge">Video</span>
+
+                        <div class="portfolio-overlay"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Portfolio lightbox modal -->
+        <div class="portfolio-modal py-5" id="modal">
+
+            <div class="portfolio-modal_content mx-auto">
+            <!-- close  button -->
+            <h3 class="modal-close position-absolute d-inline-block text-secondary font-weight-bold">X</h3> 
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 modal-img_container">
+                            <img src="modal image" alt="" class="w-100" id="modal-img">
+                        </div>
+                        <div class="col-lg-7">
+                            <p class="modal-messaging">
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+        <!-- End of portfolio lightbox modal -->
+    </section>
+    <!-- End of our work/portfolio -->
+
+    <!-- Testimonial section -->
+
+    <section class="space">
+        <div class="container">
+            <div class="h1 text-muted heading-text text-center position-relative d-table mr-auto small-space" background-text ="T" data-aos="fade-up">
+                Testimonials 
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel slide carousel-fade position-relative" data-bs-ride="carousel" id="myCarousel" data-aos="fade-up">
+                
+                <div class="carousel-inner">
+    
+                    <div class="carousel-item text-center active">
+                        <div class="picture-box">
+                        <img src="img/images/person.jpg" alt="carousel image"> 
+                        </div>
+                        <div class="carousel-text d-none d-md-block position-relative">
+                            <h4 class="text-info"><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit porro aut unde maxime aliquam?</em></h4>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item text-center">
+                        <div class="picture-box">
+                        <img src="img/images/testing pix.jpg" alt="carousel image"> 
+                        </div>
+                        <div class="carousel-text d-none d-md-block position-relative">
+                            <h4 class="text-info"><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit porro aut unde maxime aliquam?</em></h4>
+                        </div> 
+                    </div>
+    
+                    <div class="carousel-item text-center">
+                        <div class="picture-box">
+                        <img src="img/images/woman.jpg" alt="carousel image"> 
+                        </div>  
+                        <div class="carousel-text d-none d-md-block position-relative">
+                            <h4 class="text-info"><em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit porro aut unde maxime aliquam?</em></h4>
+                        </div>                                
+                    </div>
+                        
+                </div>
+                
+                <ol class="carousel-indicators position-relative">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                  </ol>
+                    
+            </div>
+            <!-- End of carousel -->
+        </div>
+    </section>
+
+    <!-- End of Testimonial -->
+
+    <!-- Newsletter section -->
+    <section class="space">
+        <div class="container-fluid newsletter">
+            <div class="d-lg-flex justify-content-between align-items-center">
+                <h2 class="text-white">Sign up for newsletter</h2>
+
+                <form class="d-inline-block mt-4 mt-lg-0">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email" aria-label="put in your email">
+                        <button class="btn btn-outline-light">Sign up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End of Newsletter section -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/logo/Logo-dark.svg" alt="logo">
+                    <p class ="mt-3">An award winning agency</p>
+                </div>
+                <div class="col-lg-4">
+                        <ul class="list-unstyled text-center">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Work</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-lg-4 social d-flex justify-content-around">
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-credit px-5 py-3 bg-dark text-white">
+            Copyright &copy; <span id ="year"></span>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+<!-- Bootstrap js -->
+<script src="vendor/js/bootstrap.js"></script>
+
+<!-- jQuery -->
+<script src="vendor/js/jquery.min.js"></script>
+
+
+<!-- Popper js -->
+<script src="vendor/js/popper.js"></script>
+
+
+<!-- Fancybox -->
+<script src="vendor/js/jquery.fancybox.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Typed.js for animated text typing -->
+<script src="vendor/js/typed.js/lib/typed.js"></script>
+
+<!-- Main js -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
